@@ -77,9 +77,10 @@ img {
 /* Latest Work Area */
 .latest-work{
     margin-top: 200px;
-    margin-bottom: 40px;
+    margin-bottom: 200px;
     background: url("images/latest-work-bg.png") no-repeat;
     background-size: cover;
+    background-position: right;
 }
 .gallery{
     overflow: hidden;
@@ -95,4 +96,47 @@ img {
 }
 .gallery .gallery-width img{
     padding-top: 0;
+}
+
+/* Footer Area */
+.footer-area{
+    background: url("images/footer-bg.png") no-repeat;
+    background-size: cover;
+    background-position: left;
+    margin-bottom: 80px;
+}
+.footer-area .client-area{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-area .client-area h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.footer-area .client-area img{
+   width: 150px;
+   border-radius: 50%;
+   padding: 0;
+}
+.footer-area .client-area h3{
+    font-size: 14px;
+    color: #202428;
+    margin-bottom: 0;
+}
+.footer-area .client-area .ceo{
+    font-size: 10px;
+    margin-top: 5px;
+}
+.footer-area .email-area{
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #EC5196, #ED4B72);
+    padding: 40px;
+}
+.footer-area .email-area p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.footer-area p.email-hero{
+    font-size: 35px;
 }
