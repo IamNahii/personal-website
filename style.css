@@ -9,18 +9,21 @@ body{
     margin: 0 auto;
 }
 .half-width {
-    width: 50%;
+    width: 40%;
     float: left;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-header::after{
+header::after,
+section::after{
     content: "";
     clear: both;
     display: block;
 }
 .content{
-     padding: 140px 0px 80px 80px;
+     padding: 180px 0px 80px 80px;
 }
-h1{
+h2{
     color: #202428;
     font-weight: 300;
     font-size: 40px;
@@ -41,7 +44,10 @@ p{
     margin-top: 10px;
     font-weight: 700;
 }
-
+img {
+    width: 100%;
+    padding-top: 100px;
+}
 
 /* Header Area */
 .header-area{
@@ -53,9 +59,12 @@ p{
     color: #EC4C7A;
     font-weight: 700;
     font-size: 60px;
+    margin: 0 0 40px 0;
 }
 
-.header-area img {
-    width: 100%;
-    padding-top: 100px;
+/* Biography Area */
+.biography-area{
+    margin-top: 200px;
+    background: url("images/biography-bg.png") no-repeat;
+    background-size: cover;
 }
