@@ -23,6 +23,11 @@ section::after{
 .content{
      padding: 180px 0px 80px 80px;
 }
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 400;
+}
 h2{
     color: #202428;
     font-weight: 300;
@@ -67,4 +72,27 @@ img {
     margin-top: 200px;
     background: url("images/biography-bg.png") no-repeat;
     background-size: cover;
+}
+
+/* Latest Work Area */
+.latest-work{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    background: url("images/latest-work-bg.png") no-repeat;
+    background-size: cover;
+}
+.gallery{
+    overflow: hidden;
+    margin-top: 80px;
+}
+.gallery .gallery-width{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+.gallery .gallery-width:last-child{
+    margin-right: 0;
+}
+.gallery .gallery-width img{
+    padding-top: 0;
 }
